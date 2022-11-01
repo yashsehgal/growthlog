@@ -1,0 +1,37 @@
+[
+    {
+        "logID": "joined-economize",
+        "logTitle": "Joined economize.cloud as a Frontend SDE (Intern)",
+        "isLogGrowthful": true,
+        "logTimestamp": {
+            "logDate": "01",
+            "logMonth": "October",
+            "logYear": "2021"
+        },
+        "logTags": ["Community", "DevRel", "Hackathons", "Open Source", "Education"],
+        "logRefs": {
+            "logRefList": [],
+            "logRefLinks": [
+                { "label": "GitHub", "link": "https://github.com/hekors" },
+                { "label": "Website", "link": "https://hekors.tech" }
+            ]
+        }
+    },
+    {
+        "logID": "started-building-hekors",
+        "logTitle": "Started Building HEKORS Community",
+        "isLogGrowthful": true,
+        "logTimestamp": {
+            "logMonth": "August",
+            "logYear": "2021"
+        },
+        "logTags": ["Internship", "Startup", "Frontend SDE"],
+        "logRefs": {
+            "logRefList": [],
+            "logRefLinks": [
+                { "label": "Website", "link": "https://economize.cloud" },
+                { "label": "Internship Experience Blog", "link": "https://github.com/yashsehgal/yashsehgal/blob/main/experiences/economize-experience.md" }
+            ]
+        }
+    }
+]
