@@ -1,0 +1,28 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your own custom utilities */
+
+.app-container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+}
+
+.growthlog-animated-gradient {
+  background: linear-gradient(230deg, #e74694, #4b79cf, #4bc5cf, #4b79cf, #e74694);
+  background-size: 500% 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: GradientAnimation 8s ease-in-out infinite alternate;
+  -moz-animation: GradientAnimation 8s ease-in-out infinite alternate;
+  animation: GradientAnimation 8s ease-in-out infinite alternate;
+}
+
+@keyframes GradientAnimation {
+    0% { background-position: 0% 50% }
+    100% { background-position: 200% 50% }
+}
