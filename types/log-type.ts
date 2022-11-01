@@ -7,7 +7,7 @@ export type LogRefLink = {
 export type LogType = {
     logID: string,
     logTitle: string,
-    isLogGrowthful: true,
+    isLogGrowthful: boolean,
     logTimestamp: {
         logDate: number,
         logMonth: string,
