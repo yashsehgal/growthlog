@@ -53,7 +53,7 @@ export default function LogRecord() {
                                         <ul className="growth-log-item-reference-links-wrapper ml-4 mt-2">
                                             {growthLogItem?.logRefs?.logRefLinks?.map((refLinkItem, refLinkIndex) => (
                                                 <li key={refLinkIndex} 
-                                                    className="text-blue-500 growth-log-item-reference-link-item list-disc text-sm font-normal cursor-pointer hover:underline w-fit h-auto"
+                                                    className="text-blue-500 dark:text-blue-300 growth-log-item-reference-link-item list-disc text-sm font-normal cursor-pointer hover:underline w-fit h-auto"
                                                     onClick={() => window.open(refLinkItem?.link)}
                                                 >
                                                     {refLinkItem?.label + " ↗️"}

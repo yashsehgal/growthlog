@@ -9,9 +9,9 @@ export type LogType = {
     logTitle: string,
     isLogGrowthful: boolean,
     logTimestamp: {
-        logDate: number,
+        logDate: string,
         logMonth: string,
-        logYear: number
+        logYear: string
     },
     logTags: string[],
     logRefs: {
