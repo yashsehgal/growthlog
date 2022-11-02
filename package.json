@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build --output public",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -22,6 +22,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.18",
+    "react-icons": "^4.6.0",
     "tailwindcss": "^3.2.1"
   }
 }

@@ -10,13 +10,13 @@ export default function Hero() {
                 <span className="inner-content text-gray-800 dark:text-gray-400">{"Growth from 2021 till "}</span>
                 <span className="inner-content date-wrapper flex flex-row items-center justify-start gap-1 select-none cursor-default">
                     <span className="inner-content date_date-wrapper px-2 py-1 rounded-md border border-gray-300 dark:border-gray-700 shadow bg-gray-100 dark:bg-gray-800 text-sm text-gray-800 dark:text-gray-400">
-                        {"Date: " + new Date().getDate()}
+                        {new Date().getDate()}
                     </span>
                     <span className="inner-content date_month-wrapper px-2 py-1 rounded-md border border-gray-300 dark:border-gray-700 shadow bg-gray-100 dark:bg-gray-800 text-sm text-gray-800 dark:text-gray-400">
-                        {"Month: " + new Date().getMonth()}
+                        {new Date().getMonth()}
                     </span>
                     <span className="inner-content date_year-wrapper px-2 py-1 rounded-md border border-gray-300 dark:border-gray-700 shadow bg-gray-100 dark:bg-gray-800 text-sm text-gray-800 dark:text-gray-400">
-                        {"Year:" + new Date().getFullYear()}
+                        {new Date().getFullYear()}
                     </span>
                 </span>
             </p>
