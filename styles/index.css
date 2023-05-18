@@ -11,9 +11,7 @@ body, html {
 }
 
 .app-container {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1150px;
+  @apply mx-auto w-[1150px] max-2xl:w-[1000px] max-xl:w-[800px] max-lg:w-[600px] max-md:w-[420px] max-sm:w-[340px];
 }
 
 .growthlog-animated-gradient {
