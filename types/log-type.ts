@@ -1,21 +1,21 @@
 
 export type LogRefLink = {
-    label: string,
-    link: string
+    label?: string,
+    link?: string
 }
 
 export type LogType = {
-    logID: string,
-    logTitle: string,
-    isLogGrowthful: boolean,
-    logTimestamp: {
-        logDate: string,
-        logMonth: string,
-        logYear: string
+    logID?: string,
+    logTitle?: string,
+    isLogGrowthful?: boolean,
+    logTimestamp?: {
+        logDate?: string,
+        logMonth?: string,
+        logYear?: string
     },
-    logTags: string[],
-    logRefs: {
-        logRefList: string[],
-        logRefLinks: LogRefLink[]
+    logTags?: string[],
+    logRefs?: {
+        logRefList?: string[],
+        logRefLinks?: LogRefLink[]
     }
 };

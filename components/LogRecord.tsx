@@ -8,7 +8,7 @@ export default function LogRecord() {
     return (
         <div className="log-record">
             <ul className="log-record-list-wrapper relative border-l border-gray-200 dark:border-gray-700">
-                {growthLogRecordRef.current?.map((growthLogItem, growthLogIndex: number) => {
+                {growthLogRecordRef.current?.map((growthLogItem: LogType, growthLogIndex: number) => {
                     return (
                         <li className="log-record-item mb-10 ml-4" key={growthLogIndex}>
                             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
